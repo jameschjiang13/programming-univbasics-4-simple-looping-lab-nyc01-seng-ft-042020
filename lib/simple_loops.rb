@@ -26,4 +26,5 @@ def return_string_array(array)
     array[counter] = "#{array[counter]}"
     counter += 1
   end
+  return array
 end
